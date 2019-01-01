@@ -1,5 +1,9 @@
 import * as express from 'express';
+import * as logger from './logger';
+
 const app = express();
+
+app.use(logger.logger);
 
 app.get('/', (req: express.Request, res: express.Response) => {
   // res.writeHead(200);
