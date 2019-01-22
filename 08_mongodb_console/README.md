@@ -109,6 +109,15 @@ WriteResult({ "nInserted" : 1 })
 > db.products.find({price: {$gt: 200}}) // priceが200より小さいものを検索
 >
 ```
+```
+> db.characters.find().pretty() // charactersの中身を下のように表現してくれる
+{
+  "_id" : ObjectId("5c280309156ceb35b1564cff"),
+  "name" : "sola",
+  "age" : 33,
+  "__v" : 0
+}
+```
 
 ## Document内容の更新
 ```
