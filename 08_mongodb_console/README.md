@@ -15,6 +15,9 @@
 ```
 $ mongod // mongodbが起動する
 $ CNTL-C // mongodbを停止する
+// か,
+$ sudo service mongod start
+$ sudo service mongod stop
 ```
 
 ## mongodbへのコンソールからのアクセスの仕方は,
